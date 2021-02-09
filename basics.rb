@@ -2,7 +2,6 @@ require 'pry'
 ### ARRAYS ###
 # What are arrays?
 
-
 # array construction
 
 
