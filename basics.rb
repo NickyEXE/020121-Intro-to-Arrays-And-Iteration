@@ -26,11 +26,23 @@ require 'pry'
   # how do we get "cheese" from random_array
   random_array[4][1]
 
+  #how do we get "Lou Bega" from string_array
+  string_array[3]
+  string_array.last
+  string_array[-1]
+
   def method_that_returns_an_array
     [1, 2, 3, 4, "cheese"]
   end
   method_that_returns_an_array[4] #"cheese"
 
 # get a selection of elements from an array
+
+  # string_array = ["Monica", "Tina", "Rita", "Lou Bega"]
+  # how do we get ["Tina", "Rita"] from string_array
+  # .slice takes in two arguments:
+    # the first represents the starting index
+    # the second represents the length of the slice you want
+  string_array.slice(1, 2)
 
 binding.pry
