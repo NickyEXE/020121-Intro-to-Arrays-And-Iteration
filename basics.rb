@@ -45,4 +45,14 @@ require 'pry'
     # the second represents the length of the slice you want
   string_array.slice(1, 2)
 
+# please name variables that hold arrays with the plural
+
+  # yes
+  students = ["robin", "batman"]
+  # no
+  student = ["robin", "batman"]
+  # also no
+  set_of_student = ["robin", "batman"]
+
+
 binding.pry
